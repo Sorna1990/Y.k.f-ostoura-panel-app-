@@ -1,0 +1,22 @@
+{
+  "name": "پنل اسطوره",
+  "short_name": "اسطوره",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "orientation": "portrait-primary",
+  "description": "پنلی برای کاوش در اسطوره‌ها، کهن‌الگوها و مسیر درونی شما.",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23c084fc'/%3E%3Cstop offset='100%25' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='192' height='192' rx='32' fill='%23111827'/%3E%3Ccircle cx='96' cy='96' r='70' fill='none' stroke='url(%23g)' stroke-width='8'/%3E%3Cpath d='M96,36 V156 M36,96 H156 M58,58 L134,134 M58,134 L134,58' stroke='url(%23g)' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23c084fc'/%3E%3Cstop offset='100%25' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='85' fill='%23111827'/%3E%3Ccircle cx='256' cy='256' r='186' fill='none' stroke='url(%23g)' stroke-width='21'/%3E%3Cpath d='M256,90 V422 M90,256 H422 M155,155 L357,357 M155,357 L357,155' stroke='url(%23g)' stroke-width='11' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
