@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ostoura Panel App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="src/manifest.webmanifest">
+  <meta name="theme-color" content="#111827">
+  <script src="https://cdn.tailwindcss.com"></script>
+<script type="importmap">
+{
+  "imports": {
+    "rxjs": "https://esm.sh/rxjs@^7.8.2?conditions=es2015",
+    "rxjs/operators": "https://esm.sh/rxjs@^7.8.2/operators?conditions=es2015",
+    "rxjs/ajax": "https://esm.sh/rxjs@^7.8.2/ajax?conditions=es2015",
+    "rxjs/webSocket": "https://esm.sh/rxjs@^7.8.2/webSocket?conditions=es2015",
+    "rxjs/testing": "https://esm.sh/rxjs@^7.8.2/testing?conditions=es2015",
+    "rxjs/fetch": "https://esm.sh/rxjs@^7.8.2/fetch?conditions=es2015",
+    "@angular/platform-browser": "https://esm.sh/@angular/platform-browser@^18.0.0?external=rxjs",
+    "@angular/core": "https://esm.sh/@angular/core@^18.0.0?external=rxjs",
+    "@angular/forms": "https://esm.sh/@angular/forms@^18.0.0?external=rxjs",
+    "@google/genai": "https://esm.sh/@google/genai@^0.14.0?external=rxjs",
+    "@angular/compiler": "https://esm.sh/@angular/compiler@^18.0.0?external=rxjs",
+    "@angular/common": "https://esm.sh/@angular/common@^18.0.0?external=rxjs",
+    "@angular/service-worker": "https://esm.sh/@angular/service-worker@^18.0.0?external=@angular/core,@angular/common,rxjs"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900">
+  <app-root></app-root>
+  <noscript>
+    <div style="background-color: #111827; color: #f3f4f6; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; font-family: sans-serif;">
+      <p>برای استفاده از این اپلیکیشن، لطفاً جاوا اسکریپت را در مرورگر خود فعال کنید.</p>
+    </div>
+  </noscript>
+</body>
+</html>
